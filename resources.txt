@@ -1,0 +1,3 @@
+Check out General Assembly's free DASH course for more practice with HTML / CSS and even Javascript.
+  https://dash.generalassemb.ly/
+
