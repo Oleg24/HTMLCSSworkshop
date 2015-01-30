@@ -20,6 +20,9 @@ li {
 
 li:hover{
   background-color: #ededed;
+}
+
+li a:hover{
   color: black;
 }
 
