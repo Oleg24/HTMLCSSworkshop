@@ -15,7 +15,7 @@ ul {
 
 li {
   display: inline-block;
-  padding: 1em;
+  padding: 16px;
 }
 
 li:hover{
@@ -33,10 +33,13 @@ li a {
 .jumbo{
   background-image: url("../images/nairobi.JPG");
   background-size: cover;
-  height: 500px;
+  height: 625px;
+  width: 100%;
   background-position: center;
   color: black;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 .content{
   width: 80%;
