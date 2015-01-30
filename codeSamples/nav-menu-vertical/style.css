@@ -1,23 +1,33 @@
+body {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 1000px;
+}
+
 .nav {
   background-color: GhostWhite;
   border-bottom: 2px solid gray;
-  position: fixed;
-  padding-left: 5%;
-  padding-right: 5%;
-  top: 0;
-  left: 0;
-  right: 0;
+  float: left;
 }
 
 .nav ul {
   list-style: none;
+  width: 125px;
+  height: 250px;
   margin: 0;
   padding: 0;
 }
 
 .nav ul > li {
-  display: inline-block;
   padding: 1em;
+}
+
+.nav ul > li a {
+  float: right;
+  text-decoration: none;
+  color: slategray;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
 }
 
 .nav ul > li:hover{
@@ -25,9 +35,8 @@
   color: black;
 }
 
-.nav ul > li a {
-  text-decoration: none;
-  color: slategray;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 900;
+.nav ul > li:hover a {
+  color: black;
 }
+
+

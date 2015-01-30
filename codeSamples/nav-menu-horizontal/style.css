@@ -20,14 +20,18 @@
   padding: 1em;
 }
 
-.nav ul > li:hover{
-  background-color: #ededed;
-  color: black;
-}
-
 .nav ul > li a {
   text-decoration: none;
   color: slategray;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 900;
+}
+
+.nav ul > li:hover{
+  background-color: #ededed;
+  /*color: black;*/
+}
+
+.nav ul > li:hover a {
+  color: black;
 }
