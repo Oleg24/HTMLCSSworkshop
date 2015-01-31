@@ -5,6 +5,8 @@
   position: fixed;
   right: 0;
   top: 0;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 ul {
@@ -35,7 +37,10 @@ li a {
 
 .jumbo {
   background-image: url("../images/nairobi.JPG");
-  background-size: cover;
+  background-size: auto 85%;
+  background-repeat: no-repeat;
+  padding-left: 10%;
+  padding-right: 10%;
   height: 660px;
   width: 100%;
   background-position: center;
